@@ -87,7 +87,17 @@ JobFitSkill/
 
 ## 安装
 
-把整个 `JobFitSkill/` 目录放进你的 Skills 目录即可：
+**方式一：把 GitHub 链接直接发给你的 AI Agent（最省事）**
+
+把仓库链接发给 Claude Code、Codex、Cursor、Trae 等任一支持 Skill 的 Agent，只需发送一句安装要求即可：
+
+```text
+帮我安装这个 Skill：https://github.com/XiaqiuOO/JobFitSkill
+```
+
+**方式二：手动放进 Skills 目录**
+
+下载仓库后，把整个 `JobFitSkill/` 目录放进对应 Agent 的 Skills 目录：
 
 ```bash
 # 以 Trae 为例
@@ -100,12 +110,11 @@ mkdir -p .claude/skills && cp -r JobFitSkill .claude/skills/
 要求：
 
 - Microsoft Word（直接编辑原文件，首选）
-- Python 3.9+ 与 `python-docx`（仅"无原版 Word"的脚本兜底时需要）
+- Python 3.9+ 与 `python-docx`（仅「无原版 Word」的脚本兜底时需要）
 
 ```bash
 pip install python-docx
 ```
-
 ---
 
 ## 使用
