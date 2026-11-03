@@ -233,3 +233,8 @@ python3 scripts/build_resume.py \
 
 MIT。可自由使用、修改与分发；若你希望采用其他协议，修改本节并在仓库中添加 `LICENSE` 文件。
 </content>
+
+## 开发者
+
+虾球欧欧（小红书、抖音同名）
+
